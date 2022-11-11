@@ -28,6 +28,7 @@ function App() {
     <Alert />
     <Menu />
      <Navbar />
+     <Data />
 
      </>
   

@@ -1,3 +1,4 @@
+
 import React,{useState}from 'react'
 import "./question.css";
 function Question({id,title,info,toggle}) {
