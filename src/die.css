@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.dice--section{
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin:20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.dice--section:hover{
+    transform: scale(0.9);
+}
+.die--num{
+    font-size:2rem;
+    
+}
+.active {
+    background: lightgreen;
+  }
