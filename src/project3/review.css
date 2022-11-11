@@ -1,0 +1,68 @@
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img--container{
+    position: relative;
+}
+.person--img{
+    width:130px;
+    height: 130px;
+    margin-top:30px;
+    border-radius: 50%;
+    box-shadow: 6px 0   rgba(18, 255, 18, 0.8);
+}
+
+.quote-icon{
+    position: absolute;
+    right: 100px;
+    top:40px;
+    color:white;
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+    background:green;
+    text-align: center;
+    padding-top:7px;
+    
+}
+.author{
+    font-size: 1.1rem;
+    text-transform: capitalize;
+
+}
+.job{
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color:green;
+    margin-top:-10px;
+}
+.buttons{
+    margin-top:10px;
+    margin-bottom: 20px;  
+}
+.prev-btn,.next-btn{
+    margin-right:30px;
+    border:none;
+    color:green;
+    cursor: pointer;
+    font-size: 1.1rem;
+    
+}
+.prev-btn:hover,.next-btn:hover{
+    border:1px solid grey;
+}
+.random-btn{
+    color:green;
+    border:none;
+    padding:10px 20px;
+    margin-right:38px;
+    font-size:14px;
+    border-radius: 5px;
+    
+}
+.random-btn:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+}

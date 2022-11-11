@@ -1,0 +1,31 @@
+.grocery-item{
+    margin-top: 10px;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    opacity: 0.7;
+}
+.grocery-item:hover{
+    transition: 0.4s ease all;
+    cursor:pointer;
+    padding:0 1px;  
+    opacity: 1.0;
+}
+.edit-btn{
+    color:green;
+    background: none;
+    border:none;
+    cursor: pointer;
+}
+.delete-btn{
+    color:red;
+    background: none;
+    border:none;
+    cursor: pointer;
+}
+.edit-btn:hover{
+   font-size:15px;
+}
+.delete-btn:hover{
+    font-size: 15px;
+}

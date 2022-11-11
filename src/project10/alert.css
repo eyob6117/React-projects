@@ -1,0 +1,11 @@
+.alert-sucess{
+    background: lightgreen;
+    text-align: center;
+    width:350px;
+}
+.alert-danger{
+    background: lightcoral;
+    text-align: center;
+    width:350px;
+    padding:3px;
+}

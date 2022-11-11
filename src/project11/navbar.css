@@ -1,0 +1,25 @@
+.nav-center{
+    padding:15px 14px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    height: auto;
+  
+}
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+.colored{
+    color:green
+}
+.nav-toggle{
+    background: none;
+    color: green;
+    border:none;
+    font-size:25px;
+    margin-top:15px;
+}
+.links-container{
+  
+}

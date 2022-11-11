@@ -1,38 +1,123 @@
+body{
+  margin: 0;
+}
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin-top:50px;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
+  width:100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.main{
+width:60%;
+box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+border-radius: 7px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding:7px 12px;
+}
+.underline{
+  border-bottom: 4px solid blue;
+  width:50px;
+  margin-left:20px;
+}
+/* button {
+background:darkorange;
+border:none;
+width:30%;
+padding:10px;
+font-size: 1.1rem;
+text-transform: capitalize;
+font-weight: bold;
+border-radius:5px ;
+align-self: center;
+width:100%;
+cursor: pointer;
+} */
+/* button:focus{
+  outline: none;
+}
+.job-btn{
+ margin:40px;
+ border:none;
+ background: none;
+ font-size:1.05rem;
+ transition: 0.11s ease all;
+ color:black;
+}
+.job-btn:hover{
+  cursor: pointer;
+  border-bottom: 2px solid green;
+  color:green;
+}
+.active-btn{
+  border-bottom: 2px solid green;
+} */
+.slider-info{
+  transition: all 7s linear;
+}
+.img-slider{
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.buttons{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  bottom:300px;
+}
+.left-btn,.right-btn{
+  font-size: 1.1rem;
+  background: darkblue;
+  color:white;
+  border:none;
+  cursor: pointer;
+ 
+}
+.gorcery-container{
+  display: flex;
+
+}
+h3{
+  text-align:center;
+}
+.grocery{
+  padding:5px 15px;
+  margin-bottom: 20px;
+}
+.submit-btn{
+  width:100px;
+  background: blue;
+  color:white;
+  cursor: pointer;
+  padding:5px 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.clr-btn{
+ background: none;
+ border:none;
+ margin-left:90px;
+ font-size: 1.1rem;
+ color:darkred;
+ cursor: pointer;
+}
+.clr-btn:hover{
+ opacity: 0.75;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

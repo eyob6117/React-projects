@@ -1,0 +1,18 @@
+.menu--section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left:200px;
+}
+.img{
+    width:50%;
+    align-self: center;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    width:500px;
+}
+.desc{
+    width:500px;
+}
